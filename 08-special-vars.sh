@@ -4,4 +4,4 @@
 echo "all variables: $@"
 
 #$# is symbol of no of variables
-echo "all variables: $#"
+echo "No of variables: $#"
