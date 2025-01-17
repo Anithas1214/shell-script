@@ -1,7 +1,7 @@
 #!/bin/bash
 userid=$(id -u)
 timestamp=$(date +%F-%H-%M-%S)
-script_name=$($0 | cut -d "." -f1)
+script_name=$(echo $0 | cut -d "." -f1)
 logfile=/tmp/$script_name-$timestamp.log
 validate(){
   echo " exit status: $1"
