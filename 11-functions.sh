@@ -12,7 +12,7 @@ then
 else
    echo " you are super user "   
 fi   
-dnf install mysqll -y
+dnf install mysql -y
 
 validate $? "installing my sql"
 validate $? "installing my sql"
