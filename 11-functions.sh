@@ -24,5 +24,6 @@ fi
 dnf install mysql -y
 
 validate1 $? "installing my sql"
+dnf install git -y
 validate1 $? "installing git"
 #################
