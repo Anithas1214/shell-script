@@ -6,6 +6,7 @@ logfile=/tmp/$script_name-$timestamp.log
 echo "script started executing at: $timestamp"
 R="\e[31m"
 G="\e[32m"
+Y="\e[33m"
 N="\e[0m"
 validate(){
   echo " exit status: $1"
